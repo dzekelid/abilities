@@ -7,8 +7,8 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/632-pagerd
 x-kinRank: "8"
 x-alexaRank: "18918"
 tags: Abilities
-created: "2018-08-22"
-modified: "2018-08-22"
+created: "2018-08-24"
+modified: "2018-08-24"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/abilities/master/_listings/pagerduty/apis.md
 specificationVersion: "0.14"
 apis:
@@ -19,7 +19,7 @@ apis:
   humanURL: http://www.pagerduty.com/
   baseURL: https:///
   tags: Notifications, Incident, Monitoring, Stack Network, SaaS, Technology, Enterprise,
-    Relative Data, Service API, Relative StreamRank, StreamRank
+    Relative Data, Service API, Relative StreamRank, Streams
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/abilities/master/_listings/pagerduty/abilities-get-postman.md
@@ -32,7 +32,7 @@ apis:
   humanURL: http://www.pagerduty.com/
   baseURL: https:///
   tags: Notifications, Incident, Monitoring, Stack Network, SaaS, Technology, Enterprise,
-    Relative Data, Service API, Relative StreamRank, StreamRank
+    Relative Data, Service API, Relative StreamRank, Streams
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/abilities/master/_listings/pagerduty/abilities-get-postman.md
