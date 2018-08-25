@@ -7,14 +7,14 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/632-pagerd
 x-kinRank: "8"
 x-alexaRank: "18918"
 tags: Abilities
-created: "2018-08-24"
-modified: "2018-08-24"
+created: "2018-08-25"
+modified: "2018-08-25"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/abilities/master/_listings/pagerduty/apis.md
 specificationVersion: "0.14"
 apis:
-- name: PagerDuty
-  x-api-slug: pagerduty
-  description: ""
+- name: PagerDuty - List abilities
+  x-api-slug: abilities-get
+  description: List all of your account's abilities, by name.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/632-pagerduty.jpg
   humanURL: http://www.pagerduty.com/
   baseURL: https:///
@@ -25,34 +25,19 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/abilities/master/_listings/pagerduty/abilities-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/abilities/master/_listings/pagerduty/abilities-get-openapi.md
-- name: PagerDuty
-  x-api-slug: pagerduty
-  description: ""
+- name: PagerDuty - Test an ability
+  x-api-slug: abilitiesid-get
+  description: Test whether your account has a given ability.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/632-pagerduty.jpg
   humanURL: http://www.pagerduty.com/
   baseURL: https:///
   tags: Notifications, Incident, Monitoring, Stack Network, SaaS, Technology, Enterprise,
     Relative Data, Service API, Relative StreamRank, Streams
   properties:
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/abilities/master/_listings/pagerduty/abilities-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/abilities/master/_listings/pagerduty/abilities-get-openapi.md
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/abilities/master/_listings/pagerduty/abilitiesid-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/abilities/master/_listings/pagerduty/abilitiesid-get-openapi.md
-- name: PagerDuty
-  x-api-slug: pagerduty
-  description: See how PagerDuty Digital Operations Management Platform integrates
-    machine data & human intelligence to improve visibility & agility across organizations.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/632-pagerduty.jpg
-  humanURL: http://www.pagerduty.com/
-  baseURL: https:///
-  tags: Abilities
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/abilities/master/_listings/pagerduty/openapi.md
 x-common:
 - type: x-website
   url: http://www.pagerduty.com/
